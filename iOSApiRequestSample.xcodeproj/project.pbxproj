@@ -15,6 +15,9 @@
 		0AF12EF8249F4B0500A912D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF12EF6249F4B0500A912D3 /* LaunchScreen.storyboard */; };
 		0AF12F03249F4B0500A912D3 /* iOSApiRequestSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF12F02249F4B0500A912D3 /* iOSApiRequestSampleTests.swift */; };
 		0AF12F0E249F4B0500A912D3 /* iOSApiRequestSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF12F0D249F4B0500A912D3 /* iOSApiRequestSampleUITests.swift */; };
+		0AF12F1E249F4C0300A912D3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF12F1D249F4C0300A912D3 /* Post.swift */; };
+		0AF12F20249F4D9200A912D3 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF12F1F249F4D9100A912D3 /* PostDetailView.swift */; };
+		0AF12F22249F4FAF00A912D3 /* PostFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF12F21249F4FAF00A912D3 /* PostFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0AF12F09249F4B0500A912D3 /* iOSApiRequestSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSApiRequestSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF12F0D249F4B0500A912D3 /* iOSApiRequestSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApiRequestSampleUITests.swift; sourceTree = "<group>"; };
 		0AF12F0F249F4B0500A912D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF12F1D249F4C0300A912D3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0AF12F1F249F4D9100A912D3 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		0AF12F21249F4FAF00A912D3 /* PostFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				0AF12EF6249F4B0500A912D3 /* LaunchScreen.storyboard */,
 				0AF12EF9249F4B0500A912D3 /* Info.plist */,
 				0AF12EF3249F4B0500A912D3 /* Preview Content */,
+				0AF12F1D249F4C0300A912D3 /* Post.swift */,
+				0AF12F1F249F4D9100A912D3 /* PostDetailView.swift */,
+				0AF12F21249F4FAF00A912D3 /* PostFetcher.swift */,
 			);
 			path = iOSApiRequestSample;
 			sourceTree = "<group>";
@@ -268,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF12EEC249F4B0300A912D3 /* AppDelegate.swift in Sources */,
+				0AF12F22249F4FAF00A912D3 /* PostFetcher.swift in Sources */,
 				0AF12EEE249F4B0300A912D3 /* SceneDelegate.swift in Sources */,
+				0AF12F20249F4D9200A912D3 /* PostDetailView.swift in Sources */,
 				0AF12EF0249F4B0300A912D3 /* ContentView.swift in Sources */,
+				0AF12F1E249F4C0300A912D3 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
